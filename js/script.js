@@ -1,4 +1,7 @@
 function sayHello(){
     alert("Hello")
-    document.querySelector('body').attributes('style','background-color:wheat')
+    $('body').css('background-color','wheat')
+    $('body').css('color','red')
+    $('body').css('text-align','center')
+
 }
